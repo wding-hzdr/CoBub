@@ -39,8 +39,9 @@ int main()
   rho1 = 1000.;       // liquid phase
   rho2 = rho1 / RHOR; // gas phase
   mu1 = 1.05e-3;      // liquid phase
-  mu2 = mu1 / MUR;    // gas phase
-  f.sigma = 0.072;
+  // mu2 = mu1 / MUR;    // gas phase
+  mu2 = 1.86e-5;
+   f.sigma = 0.072;
 
   // solution setup
   TOLERANCE = 1e-7;
